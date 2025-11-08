@@ -1,0 +1,40 @@
+name: taskmate
+description: "A beautiful and modern Task Manager app built with Flutter."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Core Functionality ---
+  http: ^1.2.0
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+
+  # --- UI & Animations ---
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+
+  # --- Date & Time Utilities ---
+  intl: ^0.20.2
+
+  # --- Optional (Debugging / Logging) ---
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment below if you add images or custom assets:
+  # assets:
+  #   - assets/
